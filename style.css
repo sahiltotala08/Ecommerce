@@ -1,0 +1,97 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  background-color: #F7C3D3
+  ;
+}
+.navbar{
+  height: 10vh;
+  display: flex;
+ align-items: center;
+  justify-content: space-around;
+  /* background-color:  rgb(234, 115, 115); */
+}
+.Mgulogo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: larger;
+  height: 50%;
+  width: 5%;
+}
+.items{
+  display: flex;
+  font-size: larger;
+ 
+  height: 50%;
+  width: 5%;
+ 
+}
+.search{
+  display: flex;
+  font-size: larger;
+  height: 50%;
+  width: 40%;
+}
+.searchitems{
+  display: flex;
+  width: 70%;
+}
+.aboutus{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  height: 50%;
+  width: 10%;
+
+}
+.loginlogo{
+  display: flex;
+  height: 50%;
+}
+.cartlogo{
+  display: flex;
+  height: 50%;
+}
+h1{
+  color: rgb(234, 115, 115);
+  gap:10px;
+  text-align: center;
+}
+.container{
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1.5%;
+}
+.innercontainer{
+  height: 40%;
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(181, 181, 235); */
+}
+.images{
+  height: 80%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px ;
+  border: 5px double rgb(234, 115, 115);
+}
+.buttons{
+  height: 15%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100%;
+  border-radius: 10px;
+  background-color: rgb(234, 115, 115);
+  border: 2px solid rgb(255, 47, 47);
+}

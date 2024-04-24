@@ -1,0 +1,10 @@
+
+.container{
+    height: 70vh;
+}
+.innercontainer{
+    display: flex;
+    background-color: aqua;
+    height: 10%;
+    margin: 10px;
+}
